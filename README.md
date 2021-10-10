@@ -5,16 +5,16 @@ this? This is ultimate king quiz.
 Many easy question are asked first, then in last main boss level question is asked.  
 When boss level question is answered corectly, user see photo of boss and show me screenshot to get prize.  
 <!--最终关卡的问题是“谁是流行音乐之王”。I think "papa john" can be option for extra funny.-->
-!Boss level question not implemented still.   
-!Everything finished and super photo selected but code pending. Hiring for new developer to complete game
+>Boss level question not implemented still.   
+>Everything finished and super photo selected but code pending. Hiring for new developer to complete game
 # Client
 ## UI
 UI designed very well in svelte for maximum user happyness.  
 Also best in world UX DX FX. 
 ## APIs
-### GetQuestion GET
+### Get Question API
 ```javascript
-/question
+GET /question
 ```
 
 Response:
@@ -31,9 +31,9 @@ Response:
 }
 ```
 
-### SubmitAnswer POST
+### Submit Answer API
 ```javascript
-/answer
+POST /answer
 ```
 
 Request:
@@ -55,8 +55,8 @@ Response:
 ```
 
 ### Monitoring
-Analysis statistics need to be done using Google Analytics. 
-!Monitoring not implemented still. Hiring for new developer to complete analysis
+Analysis statistics need to be done using Google Analytics.  
+>Monitoring not implemented still. Hiring for new developer to complete analysis
 
 # Server
 
@@ -71,11 +71,11 @@ Very fun game, anybody play with anything.
 
 ## Scalability
 For now there is only 10 question, and there is 10 images.  
-But future there will 1000 questions and 1000 images and I will show ads and become $$$$.  
+But future there will **1000 questions and 1000 images and I will show ads and become $$$$.**  
 So storing image on my PC willn't scale. I need to move image to Microsoft AWS or such.
 
-"We need to reduce tight dependencies. Instead of using image file names directly in code, store key-values in a properties file, where value is the image path.  
-Then refer to that key in java code, so that paths can be changed anytime by directly changing props file without touching java code."  
+>"We need to reduce tight dependencies. Instead of using image file names directly in code, store key-values in a properties file, where value is the image path.  
+>Then refer to that key in java code, so that paths can be changed anytime by directly changing props file without touching java code."  
 That is what last developer say, but I don't understand why.  
-Because anyway he write `image_name=image_name.jpg` in props file, why not just use `"king_of_rap" + ".jpg"`? He fired.  
+Because anyway he write `image_name=image_name.jpg` in props file, why not just use `"king_of_rap" + ".jpg"`? He trying to charge extra for typing extra without use, he fired.  
 <!--Anyway I not the kind to cry upon spilt milk or fix unbroken milk, so [I do it his way anyway](https://stackoverflow.com/a/22370284)-->
