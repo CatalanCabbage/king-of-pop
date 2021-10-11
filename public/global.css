@@ -1,3 +1,8 @@
+@font-face {
+	font-family: 'AnotherDayV2';
+	src: url('AnotherDayV2.ttf');
+}
+
 html, body {
 	position: relative;
 	width: 100%;

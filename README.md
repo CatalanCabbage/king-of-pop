@@ -1,12 +1,12 @@
-Code for the king-of-x ctf
+Code for the royals-of-x ctf
 
 # What is
-this? This is ultimate king quiz.  
+this? This is ultimate ~king~ royals quiz.  
 Many easy question are asked first, then in last main boss level question is asked.  
 When boss level question is answered corectly, user see photo of boss and show me screenshot to get prize.  
 <!--最终关卡的问题是“谁是流行音乐之王”。I think "papa john" can be option for extra funny.-->
 >Boss level question not implemented still.   
->Everything finished and super photo selected but code pending. Hiring for new developer to complete game
+>Everything finished and super boss photo selected but code pending. Hiring for new developer to complete game.
 # Client
 ## UI
 UI designed very well in svelte for maximum user happyness.  
@@ -17,7 +17,7 @@ Also best in world UX DX FX.
 GET /question
 ```
 
-Response:
+Sample response:
 ```javascript
 {
     question: 'king_of_rap', //Question ID
@@ -36,7 +36,7 @@ Response:
 POST /answer
 ```
 
-Request:
+Sample request:
 ```javascript
 {
     question: 'king_of_rap', //Question ID
@@ -45,7 +45,7 @@ Request:
 }
 ```
 
-Response:
+Sample response:
 ```javascript
 {
     image: '', //Image ID
@@ -56,12 +56,12 @@ Response:
 
 ### Monitoring
 Analysis statistics need to be done using Google Analytics.  
->Monitoring not implemented still. Hiring for new developer to complete analysis
+>Monitoring not implemented still. Hiring for new developer to complete analysis. Minimum 15 year experience.
 
 # Server
 
 ## General overview
-The Java server takes request and gives response.  
+The Java server take request and give response.  
 What response depend on what request.  
 What else there to say?
 
