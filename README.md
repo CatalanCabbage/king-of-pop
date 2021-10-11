@@ -76,7 +76,7 @@ So storing image on my PC willn't scale. I need to move image to Microsoft AWS o
 
 >"We need to reduce tight dependencies. Instead of using image file names directly in code, store key-values in a properties file, where value is the image path.  
 >Then refer to that key in java code, so that paths can be changed anytime by directly changing props file without touching java code."  
-That is what last developer say, but I don't understand why.  
 
+That is what last developer say, but I don't understand why.  
 Because anyway he write `image_name=image_name.jpg` in props file, why not just use `"image_name" + ".jpg"`? He trying to charge extra for typing extra without use, he fired.  
 <!--Anyway I not the kind to cry upon spilt milk or fix unbroken milk, so [I do it his way anyway](https://stackoverflow.com/a/22370284)-->
