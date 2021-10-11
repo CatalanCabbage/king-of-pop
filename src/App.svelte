@@ -125,7 +125,7 @@
 
 
 	<div id="footer">
-		Made with ❤️ and 🤦 · <a href="www.github.com"><i>View on GitHub</i></a>
+		Made with ❤️ and 🤦 · <a href="https://gist.github.com/CatalanCabbage/b8526a4209111f6f5728dfae83f801bf#what-is"><i>View on GitHub</i></a>
 	</div>
 </body>
 
